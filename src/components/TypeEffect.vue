@@ -70,9 +70,23 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+
 h1 {
   font-size: 4rem;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 780px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 h1 span.cursor {

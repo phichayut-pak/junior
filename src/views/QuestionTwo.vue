@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     check() {
-      if (this.unicode === "U+1F44A") {
+      if (this.Answer === "13") {
         this.q2 = true;
         this.Answer = "";
       } else {

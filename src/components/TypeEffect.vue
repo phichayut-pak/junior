@@ -97,6 +97,7 @@ h1 span.cursor {
 }
 h1 span.cursor.typing {
   animation: none;
+  background-color: rgb(2 132 199);
 }
 @keyframes cursorBlink {
   49%{background-color: rgb(2 132 199)}

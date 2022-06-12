@@ -1,6 +1,17 @@
 <template>
   <router-view/>
+  <formAlert/>
 </template>
+
+<script>
+import formAlert from "./components/formAlert.vue";
+
+export default {
+  components: {
+    formAlert,
+  },
+}
+</script>
 
 <style>
 #app {
